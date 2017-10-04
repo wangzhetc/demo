@@ -1,31 +1,5 @@
 {
-	"LockList": [{
-			"LockName": "Room 01",
-			"LockID": "323123",
-			"LockLocation": "Main Door",
-			"LockStatus": "Locked",
-			"Code": "1804"
-		},
-
-		{
-			"LockName": "Room 02",
-			"LockID": "980353",
-			"LockLocation": "Guest Room 01",
-			"LockStatus": "unLocked",
-			"Code": "9084"
-		},
-
-		{
-			"LockName": "Room 03",
-			"LockID": "980421",
-			"LockLocation": "Guest Room 02",
-			"LockStatus": "Locked",
-			"Code": "9042"
-		}
-
-	],
-
-
+	
 	"Manager": [{
 			"Slot": 1,
 			"User Name": "Alex",
