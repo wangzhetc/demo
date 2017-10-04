@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "Other":[
+    {"Lock Location": "Main Door",   "Room Number": 0101, "Code": 1346},
+    {"Lock Location": "Guest Room1", "Room Number": 0102, "Code": 3786},
+    {"Lock Location": "Guest Room2", "Room Number": 0103, "Code": 4536}
+    ],
+  
+   
+  
+  "Manager":[
+    {"Slot": 1, "User Name": "Alex", "Code": 5644},
+    {"Slot": 2, "User Name": "Bob",  "Code": 7613},
+    {"Slot": 3, "User Name": "Carl", "Code": 1367}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  
+  "Log":[
+    {"Date": "08/25/2017", "Time": "14:35", "Event":"Lock"},
+    {"Date": "08/25/2017", "Time": "19:17", "Event":"Unlock"},
+    {"Date": "08/27/2017", "Time": "07:00", "Event":"SetCode"},
+    {"Date": "08/27/2017", "Time": "08:00", "Event":"Lock"},
+    {"Date": "08/27/2017", "Time": "07:30", "Event":"Unlock"},
+    {"Date": "09/01/2017", "Time": "09:48", "Event":"Lock"}
+  
+  
+  ]
+  
+  
+  
+  
+  
 }
